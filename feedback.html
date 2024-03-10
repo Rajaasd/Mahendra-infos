@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Mahendra Infos</title>
+	<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+	 <container>
+  	<ul class="nav">
+  		<li class="list-item">
+  			<a class="list-link">Mahendra Infos</a>
+  		</li>
+  		<ul class="nav-lg">
+ 	  <li class="list-item-lg">
+ 		<a class="list-link" href="index.html">Home</a>
+ 	</li>
+ 	 	  <li class="list-item-lg">
+ 		<a class="list-link" href="trend.html">Trending</a>
+ 	</li>
+ 	 	  <li class="list-item-lg">
+ 		<a class="list-link" href="Education.html">Education</a>
+ 	</li> 	  
+ 	<li class="list-item-lg">
+ 		<a class="list-link" href="feedback.html">Feedback</a>
+ 	</li>
+ </ul>
+  		<li class="list-item">
+  			<image src="menu.png" class="menubar" id="menubar"></image>
+  		</li>
+  	</ul>
+  <ul class="nav-hidden">
+ 	  <li class="list-item">
+ 		<a class="list-link" href="index.html">Home</a>
+ 	</li>
+ 	 	  <li class="list-item">
+ 		<a class="list-link" href="trend.html">Trending</a>
+ 	</li>
+ 	 	  <li class="list-item">
+ 		<a class="list-link" href="Education.html">Education</a>
+ 	</li> 	  
+ 	<li class="list-item">
+ 		<a class="list-link" href="feedback.html">Feedback</a>
+ 	</li>
+ </ul>
+<form action="https://api.web3forms.com/submit" method="POST">
+
+    <!-- Replace with your Access Key -->
+    <input type="hidden" name="access_key" value="c3f84948-1a36-4e5f-b3d8-c91b9f2364d0">
+
+    <!-- Form Inputs. Each input must have a name="" attribute -->
+    <label for="name">
+    	Username
+    </label>
+    <br>
+    <input type="text" name="name" class="form-in" required>
+    <br>
+    <label for="email">
+    	Email
+    </label>
+    <br>
+    <input type="email" class="form-in" name="email" required>
+    <br>
+    <label for="message">
+    	Message
+    </label>
+    <br>
+    <textarea name="message" class="form-in" required></textarea>
+    <br>
+
+    <!-- hCaptcha Spam Protection -->
+    
+
+    <button type="submit" class="submit">Submit Form</button>
+
+</form>
+	 </container>
+<!-- Required for hCaptcha -->
+<script src="https://web3forms.com/client/script.js" async defer></script>
+<script src="main.js">
+	<!--Tab to edit-->
+</script>
+</body>
+
+</html>

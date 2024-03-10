@@ -1,0 +1,110 @@
+body {
+    box-sizing:border-box;
+    background-color:skyblue;
+    position: relative;
+}
+.nav{
+	padding: 10px;
+	list-style:none;
+	display:flex;
+	justify-content: space-between;
+	align-items: center;
+	background-color:rgba(0,0,0,.2);
+	border-radius: 7px;
+}
+.nav-hidden{
+	background-color:rgba(0,0,0,.3);
+	display: flex;
+	list-style:none;
+	justify-content: space-between;
+	padding-right: 30px;
+	padding: 15px;
+	border-radius:10px;
+	display: none;
+	
+}
+.nav-lg{
+	display:flex;
+	list-style:none;
+	display: none;
+}
+.list-link{
+	text-decoration:none;
+	color:black;
+	font-weight: 700;
+}
+/*-------------images tags-----------*/
+.menubar{
+	padding-top:11px ;
+}
+.active{
+	display: block;
+	display: flex;
+}
+@media (min-width:700px){
+	.menubar{
+		display:none;
+	}
+	.nav-lg{
+		display: flex;
+		
+	}
+
+	.list-item-lg{
+		margin:5px 40px;
+	}
+}
+@media (min-width: 700px){
+	{
+		padding: 150px;
+	}
+}
+.clg-img{
+	border-radius:5px ;
+	width:95vw;
+	height:300px;
+	
+}
+.MEC{
+	text-align: center;
+}
+.MIT{
+	text-align:center ;
+}
+.MIET{
+	text-align: center;
+}
+.title{
+	background-color:rgba(0,0,0,.2);
+	padding:10px;
+	margin:5px 5px;
+	border-radius:4px;
+}
+small{
+	display: flex;
+	justify-content: flex-start;
+	margin:10px 10px;
+	color:rgba(0,0,0,.4);
+}
+form{
+	border: solid white 2px;
+	padding: 10px;
+	
+}
+.form-in{
+	width: 80vw;
+	margin: 15px 10px;
+	height: 30px;
+}
+.submit{
+	background-color: green;
+	height: 30px;
+	border:none;
+	color: white ;
+	border-radius:4px;
+}
+	
+	height: 30px;
+	background-color:green;
+	border:none;
+}
